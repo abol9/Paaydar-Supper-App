@@ -1,8 +1,9 @@
 <style lang="scss" scoped>
 </style>
 <template>
-  <div>
-    <Logo />
+  <div class='text-center pt-6'>
+    <Logo style='width: 70px;' />
+    <div class='logo-title mt-4'>عنوان برنامه</div>
   </div>
 </template>
 <script lang="ts">
@@ -15,3 +16,10 @@ import Logo from '@/assets/svg/logo.svg?inline'
 })
 export default class TopHeader extends Vue {}
 </script>
+<style>
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: red;
+}
+</style>
