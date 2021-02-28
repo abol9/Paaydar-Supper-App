@@ -1,10 +1,10 @@
 <template>
-  <v-row class='mx-6'>
-    <v-col cols='12' sm='6' md='4' v-for='item of items'>
-      <v-card outlined tile class='elevation-7 rounded-lg pa-3 ma-1'>
+  <v-row>
+    <v-col cols='4' sm='4' v-for='item of items' style='padding: 3px'>
+      <v-card outlined tile class='elevation-7 rounded-xl'>
         <v-card-text class='text-center'>
           <component :is='item.icon'/>
-          <div class='mt-4 p-2 text-center menu-title'> {{ item.title }}</div>
+          <div class='mt-4 text-center menu-title'> {{ item.title }}</div>
         </v-card-text>
       </v-card>
     </v-col>
@@ -51,13 +51,10 @@ export default class Menu extends Vue {
 </script>
 <style scoped>
 .menu-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 
-.card-width {
-  width: 33%;
-}
 
 .text-center {
   text-align: center;

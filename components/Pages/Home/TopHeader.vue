@@ -20,6 +20,6 @@ export default class TopHeader extends Vue {}
 .logo-title {
   font-size: 1.5rem;
   font-weight: bolder;
-  color: red;
+  color: white;
 }
 </style>

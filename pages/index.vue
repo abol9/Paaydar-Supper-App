@@ -1,12 +1,11 @@
 <style lang="scss" scoped>
 .home {
   background-color: #0052CC;
-  border-radius: 10px;
 }
 </style>
 <template>
   <div class='home'>
-    <TopHeader />
+    <top-header></top-header>
     <Home>
     </Home>
   </div>
