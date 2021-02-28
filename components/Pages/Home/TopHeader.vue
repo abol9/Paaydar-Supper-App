@@ -3,7 +3,7 @@
 <template>
   <div class='text-center pt-6'>
     <Logo style='width: 70px;' />
-    <div class='logo-title mt-4'>عنوان برنامه</div>
+    <div class='logo-title mt-4'>شهر هوشمند پایدار</div>
   </div>
 </template>
 <script lang="ts">
